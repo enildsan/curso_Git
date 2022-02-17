@@ -1,0 +1,96 @@
+    1   ls
+    2  pwd
+    3  pwd area de trabalho
+    4  pwd
+    5  pwd documentos
+    6   cd
+    7  cd documentos
+    8  cd area de trabalho
+    9  cd desktop
+   10  pwd
+   11  cd..
+   12   cd ..
+   13  cd ~
+   14  cd Desktop/
+   15  mkdir comandos
+   16  ls
+   17  cd comandos/
+   18  mkdir 'pasta nova'
+   19  ls
+   20  mkdir -p new/old
+   21  ls
+   22  ls new
+   23  rm -n new
+   24  rn -r new
+   25  rn -r nova pasta
+   26  rm -r nova pasta
+   27  rm -r 'nova pasta'
+   28  ls
+   29  rm -r 'pasta nova'
+   30  rm -r new
+   31  ls
+   32  mkdir 'pasta nova'
+   33  mv 'pasta nova' pasta_nova
+   34  ls
+   35  mkdir new
+   36  ls
+   37  mv new pasta_nova
+   38  ls
+   39  ls pasta_nova/
+   40  touch arquivo.txt
+   41  cp arquivo.txt pasta_nova
+   42  ls
+   43  echo 'mensaje'
+   44  echo 'mensaje' > comando.txt
+   45  cat comando.txt 
+   46  cat 1
+   47  cat
+   48  cat > comando.txt 
+   49  cat comando.txt 
+   50  cat >> comando.txt 
+   51  cat comando.txt 
+   52  clear
+   53  history
+   54  history 5
+   55  history > historico.txt
+   56  cat historico.txt 
+   57  clear
+   58  gti config -- global user.name ' Luz Santiago'
+   59  git config --global user.name 'Luz Santiago'
+   60  git config --global user.email 'enildsan@gmail.com'
+   61  git config  user.name 
+   62  ~
+   63  cd desktop
+   64  cd Desktop
+   65  cd ..
+   66  mkdir curso_Git
+   67  cd curso_Git/
+   68  git config user.name 
+   69  git init
+   70  git status
+   71  echo '#Aprendendo usar o git' > readme.md
+   72  git status
+   73  git add readme.md
+   74  git status
+   75  git commit -m 'commit inicial'
+   76  echo '##Aula 1'>> readme.md 
+   77  git status
+   78  echo 'luz santiago'> participantes.txt
+   79  git status
+   80  git add.
+   81  git add .
+   82  git status
+   83  git restore --steged participantes.txt
+   84  git restore --staged participantes.txt
+   85  git status
+   86  git add participantes.txt 
+   87  git status
+   88  git restore --staged .
+   89  git status
+   90  git commit -am 'alterção no readme'
+   91  git status
+   92  git add participantes.txt 
+   93  git status
+   94  git commite -m 'Adicionado participantes.txt'
+   95  git commit -m 'Adicionado participantes.txt'
+   96  history > aula_3.txt
